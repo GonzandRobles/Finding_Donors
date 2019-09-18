@@ -1,4 +1,6 @@
-# Finding_Donors Project
+python 3.6
+
+# Finding Donors Project
 In this project, we are going to work with a fictitious charity organization located in Silicon Valley.
 The goal of the creation of this fictitious company is to provide financial support to pleople who are interested
 in learning machine learning.
@@ -46,3 +48,29 @@ in learning machine learning.
 
 - sklearn.base import clone -> for cloing the model and use a subset of all the available features in the data and compare 
 models.
+
+# Project Analysis
+
+### Getting Started:
+
+Finding Donors starts with a brief description of the company, the target, the dataset origin and the article by Ron Kohavi from where the project it's inspired.
+
+### Exploring the Data
+
+This part is designated for the data exploration: number of values in the dataset, null values, featureset exploration.
+
+### Data Preparation
+
+Transforming skewed continuous features, normalizing numerical features, data preprocessing (get dummies), shuffle and split data.
+
+### Evaluating Model Performance
+
+Implementation if 3 different algorithms for comparison purposes through the creation of a training and predictive pipeline.
+
+### Improving Results
+
+In this final section, the best out of three supervised learning models is selected. Then we perform a grid search optimization for the model over the entire training set (X_train and y_train) by tuning at least one parameter to improve upon the untuned model's F-score.
+
+### Conclusions
+
+Final conclusions of why of the decision taken on which model we picked
